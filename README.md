@@ -100,11 +100,8 @@ Common query parameters used by QR endpoints:
 - The response `Content-Type` header is determined by the `type` parameter for the `/qr` endpoint.
 - Files saved via `/qr/save` are overwritten only if you manually reuse the exact generated name, which includes a timestamp; otherwise each request produces a new file name.
 
-## Development
-- Run tests: `gradlew.bat test` (Windows) or `./gradlew test` (macOS/Linux)
-- Update dependencies: edit `build.gradle.kts` and run `gradlew.bat build` or `./gradlew build`
-
 ## Example
 
 ### http://localhost:12345/qr?contents=Awua%20De%20Limon%20Con%20Chia
 ![img.png](img.png)
+
