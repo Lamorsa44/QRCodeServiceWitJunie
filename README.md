@@ -108,6 +108,3 @@ Common query parameters used by QR endpoints:
 
 ### http://localhost:12345/qr?contents=Awua%20De%20Limon%20Con%20Chia
 ![img.png](img.png)
-
-## License
-This project is provided as-is; no explicit license specified. Add one if needed for your use case.
